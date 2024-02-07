@@ -1,0 +1,1239 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+*{
+     font-family: 'Protest Riot', sans-serif;
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+} 
+   body {
+    margin: 0;
+    /* background-image: ; */
+    background-size: cover; 
+    background-image: url(/Grey\ Aesthetic\ Desktop\ Wallpapers\ -\ Top\ Free\ Grey\ Aesthetic\ Desktop\ \ 04E.jpg);
+
+  }
+  header{
+    position: sticky;
+    top: 1px;
+  }
+  
+  nav {
+    background-color: #60665c51;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+  }
+  li {
+    margin: 10px;
+  }
+
+  .anav {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+  }
+  .anav:hover{
+    font-size: 40px;
+  }
+  a:hover {
+    color: #4c574d;
+  }
+  .btn{
+    font-size: 25px;
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    border-radius: 10px;
+    background-color: #60665c51;
+    color: aliceblue;
+    padding: 9px;
+
+  }
+.btn1{
+    font-size: 25px;
+    position: absolute;
+    top: 8rem;
+    right: 2.2rem;
+    border-radius: 10px;
+    background-color: #60665c51;
+    color: aliceblue;
+    padding: 9px; 
+}
+button:hover{
+   color: #4c574d;
+}
+h1{position: absolute;
+  font-size: 4rem;
+  left: 2rem;
+  top: 7rem;
+  color: #4c574d;
+}
+h1::selection{
+  background-color: #4c574d;
+}
+h1:hover{
+  font-size: 5rem;
+  color: black;
+}
+.container {
+    position: absolute;
+    width: 32rem;
+    height: 47rem;
+    overflow: hidden;
+    top: 15rem;
+    left: 2rem;
+    outline: auto;
+    outline-style:unset;
+
+}
+.container:hover{
+  outline: auto;
+  outline-color:white;
+}
+
+.p1 {
+    position: absolute;
+    top:0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    overflow: auto;
+    font-size: 43.2px;
+    color:#4c574d;
+}
+.p1:hover{
+  color: black;
+}
+.p1::selection{
+  background-color: #4c574d;
+}
+.div1{
+  position: absolute;
+  width: 25rem;
+  height: 25rem;
+  left: 37rem;
+  top: 9rem;
+  background-image: url(A\ E\ S\ T\ H\ E\ T\ I\ C\ S\ -\ Grey\ \(3\).jpg);
+ border-radius: 5rem;
+ outline: auto gray;
+}
+.div1:hover{
+  transform: rotate(7deg);
+  transform-origin: top left;
+}
+.div2{
+  position: absolute;
+  width: 25rem;
+  height: 25rem;
+  left: 37rem;
+  top: 37rem;
+  background-image:url(/54\ Jaw-Droppingly\ Beautiful\ Birthday\ Cake\ _\ Cool\ tone\ color\ combo.jpg); 
+ background-size: cover;
+  border-radius: 5rem; 
+  outline: auto gray;
+}
+.div2:hover{
+  transform: rotate(7deg);
+}
+.footer {
+  background-color:#60665c51;
+  color:#4c574d;
+  text-align: center;
+display: inline-block;
+position: absolute;
+width: 100%;
+height: 5%;
+bottom: 0;
+}
+.p2{
+  position: absolute;
+  left: 45%;
+  top: 11px;
+  font-size: 22px;
+}
+.p2:hover{
+  left: 44%;
+  color: black;
+}
+h3{
+  color: #4c574d;
+  position: absolute;
+  left: 63%;
+  top:25%;
+  font-size: 3rem;
+}
+.p4{
+  font-size: 2rem;
+  position: absolute;
+  top: 35%;
+  right: 5%;
+  width: 47%;
+  text-align: center;
+  color: #4c574d;
+}
+.p4::selection{
+  background-color: #4c574d;
+ color: aliceblue;
+}
+.p4:hover{
+  color: black;
+}
+@media only screen and (max-width: 1440px) {
+  .p4{
+    font-size: 1.7rem;
+    width: 37%;
+  }
+  .div1{
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    left: 37rem;
+    top: 7rem;
+    background-image: url(A\ E\ S\ T\ H\ E\ T\ I\ C\ S\ -\ Grey\ \(3\).jpg);
+    border-radius: 5rem;
+    outline: auto gray;
+  }
+  .div2{
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    left: 37rem;
+    top: 25rem;
+    background-image:url(/54\ Jaw-Droppingly\ Beautiful\ Birthday\ Cake\ _\ Cool\ tone\ color\ combo.jpg); 
+   background-size: cover;
+    border-radius: 5rem; 
+    outline: auto gray;
+  }
+  .p1 {
+    position: absolute;
+    top:0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    overflow: auto;
+    font-size: 30px;
+    color:#4c574d;
+}
+h1{position: absolute;
+  font-size: 3rem;
+  left: 2rem;
+  top: 5rem;
+  color: #4c574d;
+}
+.container {
+  position: absolute;
+  width: 32rem;
+  height: 30rem;
+  overflow: hidden;
+  top: 10rem;
+  left: 2rem;
+  outline: auto;
+  outline-style:unset;
+
+}
+h3{
+  color: #4c574d;
+  position: absolute;
+  left: 63%;
+  top:20%;
+  font-size: 2.4rem;
+}
+.p4{
+  font-size: 1.4rem;
+  position: absolute;
+  top: 27%;
+  right: 7px;
+  width: 40%;
+  text-align: center;
+  color: #4c574d;
+}
+}
+@media only screen and (max-width: 1317px) {
+  .p4{
+    font-size: 1.7rem;
+    width: 37%;
+  }
+  .div1{
+    position: absolute;
+    width: 13rem;
+    height: 13rem;
+    left: 30rem;
+    top: 7rem;
+    background-image: url(A\ E\ S\ T\ H\ E\ T\ I\ C\ S\ -\ Grey\ \(3\).jpg);
+    border-radius: 5rem;
+    outline: auto gray;
+  }
+  .div2{
+    position: absolute;
+    width: 13rem;
+    height: 13rem;
+    left: 30rem;
+    top: 25rem;
+    background-image:url(/54\ Jaw-Droppingly\ Beautiful\ Birthday\ Cake\ _\ Cool\ tone\ color\ combo.jpg); 
+   background-size: cover;
+    border-radius: 5rem; 
+    outline: auto gray;
+  }
+  .p1 {
+    position: absolute;
+    top:0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    overflow: auto;
+    font-size: 30px;
+    color:#4c574d;
+}
+h1{position: absolute;
+  font-size: 3rem;
+  left: 2rem;
+  top: 5rem;
+  color: #4c574d;
+}
+.container {
+  position: absolute;
+  width: 25rem;
+  height: 37rem;
+  overflow: hidden;
+  top: 10rem;
+  left: 2rem;
+  outline: auto;
+  outline-style:unset;
+
+}
+h3{
+  color: #4c574d;
+  position: absolute;
+  left: 54%;
+  top:20%;
+  font-size: 2.4rem;
+}
+.p4{
+  font-size: 1.4rem;
+  position: absolute;
+  top: 27%;
+  left: 700px;
+  width: 40%;
+  text-align: center;
+  color: #4c574d;
+}}
+@media only screen and (max-width: 1193px)
+{
+  h3{
+    font-size:35px;
+    left: 750px;
+  }
+  .p4{
+    font-size: 1.2rem;
+    position: absolute;
+  top: 27%;
+  left: 700px;
+  width: 36%;
+  text-align: center;
+  color: #4c574d;
+  }
+}
+@media only screen and (max-width: 1024px){
+  .p4{
+    font-size: 1.7rem;
+    width: 37%;
+  }
+  .div1{
+    position: absolute;
+    width: 11rem;
+    height: 11rem;
+    left: 27rem;
+    top: 7rem;
+    background-image: url(A\ E\ S\ T\ H\ E\ T\ I\ C\ S\ -\ Grey\ \(3\).jpg);
+    border-radius: 5rem;
+    outline: auto gray;
+  }
+  .div2{
+    position: absolute;
+    width: 11rem;
+    height: 11rem;
+    left: 27rem;
+    top: 20rem;
+    background-image:url(/54\ Jaw-Droppingly\ Beautiful\ Birthday\ Cake\ _\ Cool\ tone\ color\ combo.jpg); 
+   background-size: cover;
+    border-radius: 5rem; 
+    outline: auto gray;
+  }
+  .p1 {
+    position: absolute;
+    top:0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    overflow: auto;
+    font-size: 25px;
+    color:#4c574d;
+}
+h1{position: absolute;
+  font-size: 2rem;
+  left: 1.5rem;
+  top: 4rem;
+  color: #4c574d;
+}
+.container {
+  position: absolute;
+  width: 25rem;
+  height: 30rem;
+  overflow: hidden;
+  top: 6rem;
+  left: 1rem;
+  outline: auto;
+  outline-style:unset;
+
+}
+h3{
+  color: #4c574d;
+  position: absolute;
+  left: 57%;
+  top:14%;
+  font-size: 2rem;
+}
+.p4{
+  font-size: 1.1rem;
+  position: absolute;
+  top: 20%;
+  left: 600px;
+  width: 35%;
+  text-align: center;
+  color: #4c574d;
+}
+
+.anav {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+.anav:hover{
+  font-size: 25px;
+}
+a:hover {
+  color: #4c574d;
+}
+.btn{
+  font-size: 20px;
+  position: absolute;
+  top: 3.5rem;
+  right: 1rem;
+  border-radius: 10px;
+  background-color: #60665c51;
+  color: aliceblue;
+  padding: 7px;
+
+}
+.btn1{
+  font-size: 20px;
+  position: absolute;
+  top: 6.5rem;
+  right: 1rem;
+  border-radius: 10px;
+  background-color: #60665c51;
+  color: aliceblue;
+  padding: 7px; 
+}
+.p2{
+  position: absolute;
+  left: 45%;
+  top: 7px;
+  font-size: 18px;
+}
+}
+@media only screen and (max-width: 942px){
+  .div1{
+    position: absolute;
+    width: 11rem;
+    height: 11rem;
+    left: 22rem;
+    top: 7rem;
+    background-image: url(A\ E\ S\ T\ H\ E\ T\ I\ C\ S\ -\ Grey\ \(3\).jpg);
+    border-radius: 5rem;
+    outline: auto gray;
+  }
+  .div2{
+    position: absolute;
+    width: 11rem;
+    height: 11rem;
+    left: 22rem;
+    top: 20rem;
+    background-image:url(/54\ Jaw-Droppingly\ Beautiful\ Birthday\ Cake\ _\ Cool\ tone\ color\ combo.jpg); 
+   background-size: cover;
+    border-radius: 5rem; 
+    outline: auto gray;
+  }
+  .p1 {
+    position: absolute;
+    top:0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    overflow: auto;
+    font-size: 21px;
+    color:#4c574d;
+}
+h1{position: absolute;
+  font-size: 1.7rem;
+  left: 1.5rem;
+  top: 4rem;
+  color: #4c574d;
+}
+.container {
+  position: absolute;
+  width: 20rem;
+  height: 30rem;
+  overflow: hidden;
+  top: 6rem;
+  left: 1rem;
+  outline: auto;
+  outline-style:unset;
+
+}
+h3{
+  color: #4c574d;
+  position: absolute;
+  left: 55%;
+  top:14%;
+  font-size: 2rem;
+}
+.p4{
+  font-size: 1.1rem;
+  position: absolute;
+  top: 20%;
+  left: 530px;
+  width: 39%;
+  text-align: center;
+  color: #4c574d;
+}
+
+.anav {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+.anav:hover{
+  font-size: 25px;
+}
+a:hover {
+  color: #4c574d;
+}
+.btn{
+  font-size: 20px;
+  position: absolute;
+  top: 3.5rem;
+  right: 1rem;
+  border-radius: 10px;
+  background-color: #60665c51;
+  color: aliceblue;
+  padding: 7px;
+
+}
+.btn1{
+  font-size: 20px;
+  position: absolute;
+  top: 6.5rem;
+  right: 1rem;
+  border-radius: 10px;
+  background-color: #60665c51;
+  color: aliceblue;
+  padding: 7px; 
+}
+.p2{
+  position: absolute;
+  left: 45%;
+  top: 7px;
+  font-size: 18px;
+}
+}
+@media only screen and (max-width: 768px){
+  .div1{
+    position: absolute;
+    width: 9rem;
+    height: 9rem;
+    left: 21rem;
+    top: 28rem;
+    background-image: url(A\ E\ S\ T\ H\ E\ T\ I\ C\ S\ -\ Grey\ \(3\).jpg);
+    border-radius: 5rem;
+    outline: auto gray;
+  }
+  .div2{
+    position: absolute;
+    width: 9rem;
+    height: 9rem;
+    left: 34rem;
+    top: 28rem;
+    background-image:url(/54\ Jaw-Droppingly\ Beautiful\ Birthday\ Cake\ _\ Cool\ tone\ color\ combo.jpg); 
+   background-size: cover;
+    border-radius: 5rem; 
+    outline: auto gray;
+  }
+  .p1 {
+    position: absolute;
+    top:0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    overflow: auto;
+    font-size: 20px;
+    color:#4c574d;
+}
+h1{position: absolute;
+  font-size: 2rem;
+  left: 1.5rem;
+  top: 2rem;
+  color: #4c574d;
+}
+.container {
+  position: absolute;
+  width: 19rem;
+  height: 33rem;
+  overflow: hidden;
+  top: 4rem;
+  left: 0.5rem;
+  outline: auto;
+  outline-style:unset;
+}
+h3{
+   color: #4c574d;
+   position: absolute;
+   left: 45%;
+   top:10%;
+   font-size: 2rem;
+}
+
+.anav {
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+}
+.anav:hover{
+   font-size: 20px;
+}
+a:hover {
+   color: #4c574d;
+}
+.btn{
+  font-size: 15px;
+  position: absolute;
+  top: 2.2rem;
+  right: 0.1rem;
+  border-radius: 10px;
+  background-color: #60665c51;
+  color: aliceblue;
+  padding: 7px;
+
+}
+.btn1{
+  font-size: 15px;
+  position: absolute;
+  top:4.5rem;
+  right: 0.1rem;
+  border-radius: 10px;
+  background-color: #60665c51;
+  color: aliceblue;
+  padding: 7px; 
+}
+.p2{
+  position: absolute;
+  left: 45%;
+  top: 7px;
+  font-size: 18px;
+}
+li {
+  margin: 5px;
+}
+.p4{
+  font-size: 1rem;
+  position: absolute;
+  top: 16%;
+  left: 330px;
+  width: 50%;
+  text-align:left;
+  color: #4c574d;
+  overflow: auto;
+}
+}
+@media only screen and (max-width: 661px){
+  .div1{
+    position: absolute;
+    width: 9rem;
+    height: 7rem;
+    left: 16rem;
+    top: 30rem;
+    background-image: url(A\ E\ S\ T\ H\ E\ T\ I\ C\ S\ -\ Grey\ \(3\).jpg);
+    border-radius: 5rem;
+    outline: auto gray;
+  }
+  .div2{
+    position: absolute;
+    width: 9rem;
+    height: 7rem;
+    left: 26rem;
+    top: 30rem;
+    background-image:url(/54\ Jaw-Droppingly\ Beautiful\ Birthday\ Cake\ _\ Cool\ tone\ color\ combo.jpg); 
+   background-size: cover;
+    border-radius: 5rem; 
+    outline: auto gray;
+  }
+  .p1 {
+    position: absolute;
+    top:0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    overflow: auto;
+    font-size: 20px;
+    color:#4c574d;
+}
+h1{position: absolute;
+  font-size: 1.5rem;
+  left: 1.5rem;
+  top: 2rem;
+  color: #4c574d;
+}
+.container {
+  position: absolute;
+  width: 15rem;
+  height: 33rem;
+  overflow: hidden;
+  top: 4rem;
+  left: 0.5rem;
+  outline: auto;
+  outline-style:unset;
+}
+h3{
+   color: #4c574d;
+   position: absolute;
+   left: 40%;
+   top:6%;
+   font-size: 1.5rem;
+}
+
+.anav {
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+}
+.anav:hover{
+   font-size: 20px;
+}
+a:hover {
+   color: #4c574d;
+}
+.btn{
+  font-size: 15px;
+  position: absolute;
+  top: 2.2rem;
+  right: 0.1rem;
+  border-radius: 10px;
+  background-color: #60665c51;
+  color: aliceblue;
+  padding: 7px;
+
+}
+.btn1{
+  font-size: 15px;
+  position: absolute;
+  top:4.5rem;
+  right: 0.1rem;
+  border-radius: 10px;
+  background-color: #60665c51;
+  color: aliceblue;
+  padding: 7px; 
+}
+.p2{
+  position: absolute;
+  left: 45%;
+  top: 7px;
+  font-size: 15px;
+}
+li {
+  margin: 5px;
+}
+.p4{
+  font-size: 1rem;
+  position: absolute;
+  top: 12%;
+  left: 260px;
+  width: 50%;
+  text-align:left;
+  color: #4c574d;
+  overflow: auto;
+}
+}
+@media only screen and (max-width: 572px){
+  .div1{
+    position: absolute;
+    width: 9rem;
+    height: 7rem;
+    left: 1rem;
+    top: 30rem;
+    background-image: url(A\ E\ S\ T\ H\ E\ T\ I\ C\ S\ -\ Grey\ \(3\).jpg);
+    border-radius: 5rem;
+    outline: auto gray;
+  }
+  .div2{
+    position: absolute;
+    width: 9rem;
+    height: 7rem;
+    left: 10.5rem;
+    top: 30rem;
+    background-image:url(/54\ Jaw-Droppingly\ Beautiful\ Birthday\ Cake\ _\ Cool\ tone\ color\ combo.jpg); 
+   background-size: cover;
+    border-radius: 5rem; 
+    outline: auto gray;
+  }
+  .p1 {
+    position: absolute;
+    top:0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    overflow: auto;
+    font-size: 20px;
+    color:#4c574d;
+}
+h1{position: absolute;
+  font-size: 1.5rem;
+  left: 1.5rem;
+  top: 2rem;
+  color: #4c574d;
+}
+.container {
+  position: absolute;
+  width: 15rem;
+  height: 25rem;
+  overflow: hidden;
+  top: 4rem;
+  left: 0.5rem;
+  outline: auto;
+  outline-style:unset;
+}
+h3{
+   color: #4c574d;
+   position: absolute;
+   left: 40%;
+   top:6%;
+   font-size: 1.5rem;
+}
+
+.anav {
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+}
+.anav:hover{
+   font-size: 20px;
+}
+a:hover {
+   color: #4c574d;
+}
+.btn{
+  font-size: 15px;
+  position: absolute;
+  top: 2.2rem;
+  right: 0.1rem;
+  border-radius: 10px;
+  background-color: #60665c51;
+  color: aliceblue;
+  padding: 7px;
+
+}
+.btn1{
+  font-size: 15px;
+  position: absolute;
+  top:4.5rem;
+  right: 0.1rem;
+  border-radius: 10px;
+  background-color: #60665c51;
+  color: aliceblue;
+  padding: 7px; 
+}
+.p2{
+  position: absolute;
+  left: 40%;
+  top: 7px;
+  font-size: 12px;
+}
+li {
+  margin: 5px;
+}
+.p4{
+  font-size: 1rem;
+  position: absolute;
+  top: 12%;
+  left: 260px;
+  width: 50%;
+  text-align:left;
+  color: #4c574d;
+  overflow: auto;
+}
+}
+@media only screen and (max-width: 504px){
+  .div1{
+    position: absolute;
+    width: 9rem;
+    height: 9rem;
+    left: 17rem;
+    top: 8rem;
+    background-image: url(A\ E\ S\ T\ H\ E\ T\ I\ C\ S\ -\ Grey\ \(3\).jpg);
+    border-radius: 5rem;
+    outline: auto gray;
+  }
+  .div2{
+    position: absolute;
+    width: 9rem;
+    height: 9rem;
+    left: 17rem;
+    top: 18rem;
+    background-image:url(/54\ Jaw-Droppingly\ Beautiful\ Birthday\ Cake\ _\ Cool\ tone\ color\ combo.jpg); 
+   background-size: cover;
+    border-radius: 5rem; 
+    outline: auto gray;
+  }
+  .p1 {
+    position: absolute;
+    top:0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    overflow: auto;
+    font-size: 20px;
+    color:#4c574d;
+}
+h1{position: absolute;
+  font-size: 1.5rem;
+  left: 1.5rem;
+  top: 2rem;
+  color: #4c574d;
+}
+.container {
+  position: absolute;
+  width: 15rem;
+  height: 32rem;
+  overflow: hidden;
+  top: 5rem;
+  left: 0.5rem;
+  outline: auto;
+  outline-style:unset;
+}
+h3{
+   color: #4c574d;
+   position: absolute;
+   left: 40%;
+   top:100%;
+   font-size: 1.5rem;
+}
+
+.anav {
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+}
+.anav:hover{
+   font-size: 20px;
+}
+a:hover {
+   color: #4c574d;
+}
+.btn{
+  font-size: 15px;
+  position: absolute;
+  top: 2.2rem;
+  right: 0.1rem;
+  border-radius: 10px;
+  background-color: #60665c51;
+  color: aliceblue;
+  padding: 7px;
+
+}
+.btn1{
+  font-size: 15px;
+  position: absolute;
+  top:4.5rem;
+  right: 0.1rem;
+  border-radius: 10px;
+  background-color: #60665c51;
+  color: aliceblue;
+  padding: 7px; 
+}
+.p2{
+  position: absolute;
+  left: 40%;
+  top: 7px;
+  font-size: 12px;
+}
+li {
+  margin: 5px;
+}
+.p4{
+  font-size: 1rem;
+  position: absolute;
+  top: 105%;
+  left: 90px;
+  width: 70%;
+  text-align:left;
+  color: #4c574d;
+}
+.footer {
+  background-color:#60665c51;
+  color:#4c574d;
+  text-align: center;
+display: inline-block;
+position: absolute;
+width: 100%;
+height: 5%;
+top: 170%;
+}
+}
+@media only screen and (max-width: 418px){
+  .div1{
+    position: absolute;
+    width: 9rem;
+    height: 9rem;
+    left: 17rem;
+    top: 8rem;
+    background-image: url(A\ E\ S\ T\ H\ E\ T\ I\ C\ S\ -\ Grey\ \(3\).jpg);
+    border-radius: 5rem;
+    outline: auto gray;
+  }
+  .div2{
+    position: absolute;
+    width: 9rem;
+    height: 9rem;
+    left: 17rem;
+    top: 18rem;
+    background-image:url(/54\ Jaw-Droppingly\ Beautiful\ Birthday\ Cake\ _\ Cool\ tone\ color\ combo.jpg); 
+   background-size: cover;
+    border-radius: 5rem; 
+    outline: auto gray;
+  }
+  .p1 {
+    position: absolute;
+    top:0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    overflow: auto;
+    font-size: 20px;
+    color:#4c574d;
+}
+h1{position: absolute;
+  font-size: 1.5rem;
+  left: 1.5rem;
+  top: 2rem;
+  color: #4c574d;
+}
+.container {
+  position: absolute;
+  width: 15rem;
+  height: 32rem;
+  overflow: hidden;
+  top: 5rem;
+  left: 0.5rem;
+  outline: auto;
+  outline-style:unset;
+}
+h3{
+   color: #4c574d;
+   position: absolute;
+   left: 40%;
+   top:100%;
+   font-size: 1.5rem;
+}
+
+.anav {
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+}
+.anav:hover{
+   font-size: 20px;
+}
+a:hover {
+   color: #4c574d;
+}
+.btn{
+  font-size: 15px;
+  position: absolute;
+  top: 2.2rem;
+  right: 0.1rem;
+  border-radius: 10px;
+  background-color: #60665c51;
+  color: aliceblue;
+  padding: 7px;
+
+}
+.btn1{
+  font-size: 15px;
+  position: absolute;
+  top:4.5rem;
+  right: 0.1rem;
+  border-radius: 10px;
+  background-color: #60665c51;
+  color: aliceblue;
+  padding: 7px; 
+}
+.p2{
+  position: absolute;
+  left: 40%;
+  top: 7px;
+  font-size: 12px;
+}
+li {
+  margin: 5px;
+}
+.p4{
+  font-size: 1rem;
+  position: absolute;
+  top: 105%;
+  left: 90px;
+  width: 70%;
+  text-align:left;
+  color: #4c574d;
+}
+.footer {
+  background-color:#60665c51;
+  color:#4c574d;
+  text-align: center;
+display: inline-block;
+position: absolute;
+width: 100%;
+height: 5%;
+top: 180%;
+}
+}
+@media only screen and (max-width: 363px){
+  .div1{
+    position: absolute;
+    width: 7rem;
+    height: 7rem;
+    left: 13rem;
+    top: 7rem;
+    background-image: url(A\ E\ S\ T\ H\ E\ T\ I\ C\ S\ -\ Grey\ \(3\).jpg);
+    border-radius: 5rem;
+    outline: auto gray;
+  }
+  .div2{
+    position: absolute;
+    width: 7rem;
+    height: 7rem;
+    left:13rem;
+    top: 15rem;
+    background-image:url(/54\ Jaw-Droppingly\ Beautiful\ Birthday\ Cake\ _\ Cool\ tone\ color\ combo.jpg); 
+   background-size: cover;
+    border-radius: 5rem; 
+    outline: auto gray;
+  }
+  .p1 {
+    position: absolute;
+    top:0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    overflow: auto;
+    font-size: 15px;
+    color:#4c574d;
+}
+h1{position: absolute;
+  font-size: 1.5rem;
+  left: 1.5rem;
+  top: 2rem;
+  color: #4c574d;
+}
+.container {
+  position: absolute;
+  width: 12rem;
+  height: 23rem;
+  overflow: hidden;
+  top: 5rem;
+  left: 0.5rem;
+  outline: auto;
+  outline-style:unset;
+}
+h3{
+   color: #4c574d;
+   position: absolute;
+   left: 40%;
+   top:73%;
+   font-size: 1.5rem;
+}
+
+.anav {
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+}
+.anav:hover{
+   font-size: 20px;
+}
+a:hover {
+   color: #4c574d;
+}
+.btn{
+  font-size: 15px;
+  position: absolute;
+  top: 2.2rem;
+  right: 0.1rem;
+  border-radius: 10px;
+  background-color: #60665c51;
+  color: aliceblue;
+  padding: 7px;
+
+}
+.btn1{
+  font-size: 15px;
+  position: absolute;
+  top:4.5rem;
+  right: 0.1rem;
+  border-radius: 10px;
+  background-color: #60665c51;
+  color: aliceblue;
+  padding: 7px; 
+}
+.p2{
+  position: absolute;
+  left: 40%;
+  top: 7px;
+  font-size: 12px;
+}
+li {
+  margin: 5px;
+}
+.p4{
+  font-size: 1rem;
+  position: absolute;
+  top: 80%;
+  left: 65px;
+  width: 70%;
+  text-align:left;
+  color: #4c574d;
+}
+.footer {
+  background-color:#60665c51;
+  color:#4c574d;
+  text-align: center;
+display: inline-block;
+position: absolute;
+width: 100%;
+height: 5%;
+top: 170%;
+}
+}
