@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+*{
+     font-family: 'Protest Riot', sans-serif;
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+} 
+   body {
+    margin: 0;
+    /* background-image: ; */
+    background-size: cover; 
+    background-image: url(/Spiderverse\,\ wanted\ custom\ colour\ wallpaper\ ❤.jpg);
+
+  }
+  header{
+    position: sticky;
+    top: 1px;
+  }
+  
+  nav {
+    background-color: rgba(128, 0, 128, 0.511);
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+  }
+  li {
+    margin: 10px;
+  }
+
+  .anav {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+  }
+  .anav:hover{
+    font-size: 40px;
+  }
+  a:hover {
+    color: rgb(50, 4, 50);
+  }
+  .btn{
+    font-size: 25px;
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    border-radius: 10px;
+    background-color: rgb(50, 4, 50);
+    color: aliceblue;
+    padding: 9px;
+
+  }
+.btn1{
+    font-size: 25px;
+    position: absolute;
+    top: 8rem;
+    right: 2.2rem;
+    border-radius: 10px;
+    background-color: rgb(50, 4, 50);
+    color: aliceblue;
+    padding: 9px; 
+}
+button:hover{
+   color: rgba(228, 4, 228, 0.734);
+}
+  .flex-item1 {
+    position: absolute;
+     width: 20rem;
+     height: 20rem;
+     top: 30vh;
+     left: 150vh;
+     background-color: aliceblue;
+     background-image: url(Cool\ Computer\ Wallpaper\ \(1\).jpg);
+     background-size:cover;
+     outline: auto wheat;
+    }
+
+  .flex-item2 {
+    background-image: url(b.b.jpt.webp);
+    background-size: cover;
+    outline: auto wheat;
+    position: absolute;
+     top: 30vh;
+     left: 80vh;
+    width: 20rem;
+    height: 20rem;
+    background-color: aliceblue;
+  }
+  .flex-item3{
+    background-image: url(/Sad\ Aesthetic\ Anime\ PC\ Wallpapers\ -\ Wallpaper\ Cave.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 30vh;
+    left: 10vh;
+    width: 20rem;
+    height: 20rem;
+    outline: auto wheat;
+    background-color: aliceblue;
+  }
+ .flex-item3:hover{
+    transform: scale(1.5);
+    transition: 2s;
+
+ } 
+ .flex-item2:hover{
+    transform: translate(50%); 
+    transition: 2s;
+
+ }
+ .flex-item1:hover{
+    transform: rotate(10deg);
+    transition: 2s;
+ }
+  /* .flex-item {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+  }
+   */
+   
+   .footer {
+    background-color: rgb(50, 4, 50);
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 10px 0;
+    font-family:cursive;
+}
+.footer::selection{
+    background-color:rgba(204, 166, 204, 0);
+    color: rgb(136, 136, 136);
+}
+/* responsive */
+
+@media(max-width:1101px){
+    li {
+        margin: 4px;
+      }
+.anav {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+.btn{
+  font-size: 15px;
+  position: absolute;
+  top: 2.5rem;
+  right: 1rem;
+  border-radius: 10px;
+  background-color: rgb(50, 4, 50);
+  color: aliceblue;
+  padding: 7px;
+
+}
+.btn1{
+  font-size: 15px;
+  position: absolute;
+  top: 5rem;
+  right: 1rem;
+  border-radius: 10px;
+  background-color: rgb(50, 4, 50);
+  color: aliceblue;
+  padding: 7px; 
+}
+.flex-item1 {
+  position: absolute;
+   width: 15rem;
+   height: 15rem;
+   top: 30vh;
+   left: 115vh;
+   background-color: aliceblue;
+   background-image: url(Cool\ Computer\ Wallpaper\ \(1\).jpg);
+   background-size:cover;
+   outline: auto wheat;
+  }
+
+.flex-item2 {
+  background-image: url(b.b.jpt.webp);
+  background-size: cover;
+  outline: auto wheat;
+  position: absolute;
+   top: 30vh;
+   left: 60vh;
+  width: 15rem;
+  height: 15rem;
+  background-color: aliceblue;
+}
+.flex-item3{
+  background-image: url(/Sad\ Aesthetic\ Anime\ PC\ Wallpapers\ -\ Wallpaper\ Cave.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 30vh;
+  left: 10vh;
+  width: 15rem;
+  height: 15rem;
+  outline: auto wheat;
+  background-color: aliceblue;
+}
+ .footer {
+  background-color: rgb(50, 4, 50);
+  color: #fff;
+  text-align: center;
+  /* position: absolute; */
+  width: 100%;
+  bottom: 0;
+  padding: 10px 0;
+  position: fixed;
+  font-family: 'Courier New', Courier, monospace;
+}
+.footer::selection{
+  background-color:rgba(204, 166, 204, 0);
+  color: rgb(136, 136, 136);
+}
+}
+@media(max-width:925px){
+    .flex-item1 {
+        position: absolute;
+         width: 15rem;
+         height: 15rem;
+         top: 30vh;
+         left: 80vh;
+         background-color: aliceblue;
+         background-image: url(Cool\ Computer\ Wallpaper\ \(1\).jpg);
+         background-size:cover;
+         outline: auto wheat;
+        }
+      
+      .flex-item2 {
+        background-image: url(b.b.jpt.webp);
+        background-size: cover;
+        outline: auto wheat;
+        position: absolute;
+         top: 30vh;
+         left: 40vh;
+        width: 15rem;
+        height: 15rem;
+        background-color: aliceblue;
+      }
+      .flex-item3{
+        background-image: url(/Sad\ Aesthetic\ Anime\ PC\ Wallpapers\ -\ Wallpaper\ Cave.jpg);
+        background-size: cover;
+        position: absolute;
+        top: 30vh;
+        left: 1vh;
+        width: 15rem;
+        height: 15rem;
+        outline: auto wheat;
+        background-color: aliceblue;
+      }
+      li {
+        margin: 4px;
+      }
+.anav {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+.btn{
+  font-size: 15px;
+  position: absolute;
+  top: 2.5rem;
+  right: 3rem;
+  border-radius: 10px;
+  background-color: rgb(50, 4, 50);
+  color: aliceblue;
+  padding: 7px;
+
+}
+.btn1{
+  font-size: 15px;
+  position: absolute;
+  top: 5rem;
+  right: 3rem;
+  border-radius: 10px;
+  background-color: rgb(50, 4, 50);
+  color: aliceblue;
+  padding: 7px; 
+}
+.footer {
+    background-color: rgb(50, 4, 50);
+    color: #fff;
+    text-align: center;
+    /* position: absolute; */
+    width: 100%;
+    bottom: 7.3rem;
+    padding: 10px 0;
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+  }
+}
